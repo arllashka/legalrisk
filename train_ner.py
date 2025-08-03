@@ -103,7 +103,7 @@ nlp = stanza.Pipeline(
 
 def has_person_org(text: str) -> bool:
     doc = nlp(str(text))
-    return any(ent.type in ("PERSON", "ORG") for ent in doc.ents)
+    return any(ent.type in ("ORG") for ent in doc.ents)
 
 # ------------- Filter loop --------------
 har_rows = []
