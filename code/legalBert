@@ -212,9 +212,7 @@ if __name__ == "__main__":
         # --- DistilBERT Experiments ---
         
         # --- Legal-BERT Experiments ---
-        {'model_name': 'nlpaueb/legal-bert-base-uncased', 'output_dir': 'results/legalbert_base', 'max_length': 128, 'epochs': 4, 'loss_type': 'ce'},
-        {'model_name': 'nlpaueb/legal-bert-base-uncased', 'output_dir': 'results/legalbert_base320', 'max_length': 320, 'epochs': 4, 'loss_type': 'ce'},
-        {'model_name': 'nlpaueb/legal-bert-base-uncased', 'output_dir': 'results/legalbert_base384', 'max_length': 384, 'epochs': 4, 'loss_type': 'ce'},
+        {'model_name': 'nlpaueb/legal-bert-base-uncased', 'output_dir': 'results/legalbert_base', 'max_length': 512, 'epochs': 4, 'loss_type': 'ce'},
         {'model_name': 'nlpaueb/legal-bert-base-uncased', 'output_dir': 'results/legalbert_len320_wce', 'max_length': 320, 'epochs': 4, 'loss_type': 'weighted_ce'},
         {'model_name': 'nlpaueb/legal-bert-base-uncased', 'output_dir': 'results/legalbert_len320_focal', 'max_length': 320, 'epochs': 4, 'loss_type': 'focal'},
     ]
