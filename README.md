@@ -1,12 +1,6 @@
-# Emotion-Adaptive Training (EAT)
-Implementation of paper: Detecting harassment and defamation in cyberbullying with emotion-adaptive training
-<img src="https://github.com/Misinformation-emotion/Cyberbullying-emotion/blob/main/t-sne_emotion_3.png" width=40% height=40%>
-
 ## Datasets
 #### Cyberbullying detection domain
 HDCyberbullying is a celebrity cyberbullying dataset we created, which was extracted from  [Cyberbullying dataset](https://www.kaggle.com/datasets/surekharamireddy/malignant-comment-classification) and [Fake news dataset](https://paperswithcode.com/dataset/fakenewsamt-celebrity)
-#### Emotion detection domain
-We use [GoEmotions dataset](https://paperswithcode.com/dataset/goemotions)
 
 ## Experiments
 The source code is written in Python and is a Jupyter Notebook. 
@@ -18,8 +12,6 @@ pip install -r requirements.txt
 * train.csv--For fine-tuning the task of cyberbullying detection.
 
 * test.csv--For cyberbullying detection test task.
-
-* goemotion.csv--For emotion domain adaptive task.
 
 #### [3] Running
 * HDCyberbllying.ipynb--Create HDCyberbllying datasets(train.csv and test.csv)
